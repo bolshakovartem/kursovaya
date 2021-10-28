@@ -14,10 +14,10 @@ function func5() {
     document.getElementById("code5").innerHTML = "<pre><code>var price1 = 5;<p></p>var price2 = 6;<p></p>var total = price1 + price2;<p></p>console.log(total);</code></pre>"
 }
 function func6() {
-    document.getElementById("code6").innerHTML = "<pre><code>let message;<p></p>message = 'Hello!';<p></p>console.log(message);<p></p>message = 'World!'; // значення змінено<p></p>console.log(message);</code></pre>"
+    document.getElementById("code6").innerHTML = "<pre><code>let message;<p></p>message = 'Hello!';<p></p>console.log(message);<p></p>message = 'World!'; // значення змінено<p></p>console.log(message);<p></p>let message = 9;<p></p>console.log(message);//помилка</code></pre>"
 }
 function func7() {
-    document.getElementById("code7").innerHTML = "<pre><code>const MY_FAV = 7;<p></p>MY_FAV = 20; // видасть помилку<p></p>console.log(&quot;Моє число: &quot; + MY_FAV); // відповідь: 7<p></p>const MY_FAV = 20; // спроба переназначити змінну - помилка</code></pre>"
+    document.getElementById("code7").innerHTML = "<pre><code>const MY_FAV = 7;<p></p>console.log(&quot;Моє число: &quot; + MY_FAV); // відповідь: 7<p></p>MY_FAV = 20; // видасть помилку<p></p>const MY_FAV = 20; // спроба переназначити змінну - помилка</code></pre>"
 }
 function func8() {
     document.getElementById("code8").innerHTML = "<pre><code>let n = 123;<p></p>console.log(typeof(n));"
@@ -32,7 +32,7 @@ function func11() {
     document.getElementById("code11").innerHTML = "<pre><code>let x = true;<p></p>console.log(typeof(x));</code></pre>"
 }
 function func12() {
-    document.getElementById("code12").innerHTML = "<pre><code>let x = null;<p></p>console.log(typeof(x));<p></p>//Це офіційно визнана помилка в typeof, ведуча початок з часів створення JavaScript і збережена для сумісності</code></pre>"
+    document.getElementById("code12").innerHTML = "<pre><code>let x = null;<p></p>console.log(typeof(x));<p></p>//Це офіційно визнана помилка в typeof, яка збережена для сумісності</code></pre>"
 }
 function func13() {
     document.getElementById("code13").innerHTML = "<pre><code>let x;<p></p>console.log(typeof(x));</code></pre>"

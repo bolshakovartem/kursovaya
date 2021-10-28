@@ -15,10 +15,10 @@ function func4() {
 }
 
 function func5() {
-    document.getElementById("code3").innerHTML = "<pre><code>&lt;!DOCTYPE html&gt;<p></p>&lt;html&gt;<p></p><br>&lt;head&gt;<p></p>    &lt;title&gt;Список&lt;/title&gt;<p></p>&lt;/head&gt;<p></p><br>&lt;body&gt;<p></p>&lt;h3&gt;Нумерований список:&lt;/h3&gt;<p></p>&lt;ol&gt;<p></p>    &lt;li&gt;Відкрийте упаковку&lt;/li&gt;<p></p>    &lt;li&gt;Висипати вміст у чашку&lt;/li&gt;<p></p>    &lt;li&gt;Налити води&lt;/li&gt;<p></p>&lt;/ol&gt;<p></p>&lt;/body&gt;<p></p><br>&lt;/html&gt;</code></pre>"
+    document.getElementById("code3").innerHTML = "<pre><code>&lt;!DOCTYPE html&gt;<p></p>&lt;html&gt;<p></p><br>&lt;head&gt;<p></p>    &lt;title&gt;Список&lt;/title&gt;<p></p>&lt;/head&gt;<p></p><br>&lt;body&gt;<p></p>&lt;h3&gt;Нумерований список:&lt;/h3&gt;<p></p>&lt;ol&gt;<p></p>    &lt;li&gt;Відкрити упаковку&lt;/li&gt;<p></p>    &lt;li&gt;Висипати вміст у чашку&lt;/li&gt;<p></p>    &lt;li&gt;Налити води&lt;/li&gt;<p></p>&lt;/ol&gt;<p></p>&lt;/body&gt;<p></p><br>&lt;/html&gt;</code></pre>"
 }
 function func6() {
-    document.getElementById("code4").innerHTML = "<pre><code>&lt;!DOCTYPE html&gt;<p></p>&lt;html&gt;<p></p><br>&lt;head&gt;<p></p>    &lt;title&gt;Список&lt;/title&gt;<p></p>&lt;/head&gt;<p></p><br>&lt;body&gt;<p></p>&lt;h3&gt;Ненумерований список:&lt;/h3&gt;<p></p>&lt;ul&gt;<p></p>    &lt;li&gt;Відкрийте упаковку&lt;/li&gt;<p></p>    &lt;li&gt;Висипати вміст у чашку&lt;/li&gt;<p></p>    &lt;li&gt;Налити води&lt;/li&gt;<p></p>&lt;/ul&gt;<p></p>&lt;/body&gt;<p></p><br>&lt;/html&gt;</code></pre>"
+    document.getElementById("code4").innerHTML = "<pre><code>&lt;!DOCTYPE html&gt;<p></p>&lt;html&gt;<p></p><br>&lt;head&gt;<p></p>    &lt;title&gt;Список&lt;/title&gt;<p></p>&lt;/head&gt;<p></p><br>&lt;body&gt;<p></p>&lt;h3&gt;Ненумерований список:&lt;/h3&gt;<p></p>&lt;ul&gt;<p></p>    &lt;li&gt;Відкрити упаковку&lt;/li&gt;<p></p>    &lt;li&gt;Висипати вміст у чашку&lt;/li&gt;<p></p>    &lt;li&gt;Налити води&lt;/li&gt;<p></p>&lt;/ul&gt;<p></p>&lt;/body&gt;<p></p><br>&lt;/html&gt;</code></pre>"
 }
 function func7() {
     document.getElementById("code5").innerHTML ="<pre><code>&lt;!DOCTYPE html&gt;<p></p>&lt;html&gt;<p></p><br>&lt;head&gt;<p></p>    &lt;title&gt;Картинка&lt;/title&gt;<p></p>&lt;/head&gt;<p></p><br>&lt;body&gt;<p></p>    &lt;img src=&quot;шлях до картинки&quot; alt=&quot;текст&quot;&gt;<p></p>&lt;body&gt;<p></p><br>&lt;/html&gt;</code></pre>"
