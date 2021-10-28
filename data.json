@@ -1,0 +1,22 @@
+{
+    "lab1":{
+        "task1":"Створити сайт власного резюме",
+        "task2":"Використати html",
+        "task3":"Загрузити роботу на GitHub"
+    },
+    "lab2":{
+        "task1":"Створити сайт-портфоліо",
+        "task2":"Використати html+css(flex, grid ...)",
+        "task3":"CSS файл створити з використанням SASS(SCSS)"
+    },
+    "lab3":{
+        "task1":"Створити сайт інтернет-магазину",
+        "task2":"Використати html+css+js",
+        "task3":"CSS файл створити за допомогою parcel-bundler та з використанням SASS(SCSS)"
+    },
+    "lab4":{
+        "task1":"Створити сайт інформер з наступних джерел: OpenWeatherMap.org, JSON Placeholder.com, Internal JSON файл",
+        "task2":"Використати html+css+js+fetch api",
+        "task3":"CSS файл створити за допомогою parcel-bundler та з використанням SASS(SCSS)"
+    }
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Про HTML</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<section id="header-section">
+    <div class="container">
+        <header>
+            <div class="nav-menu">
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html">Головна сторінка</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-zag">
+            <h1>Веб-дизайн</h1>
+            <h2>HTML</h2>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="section-zag">
+            <h2>Загальні відомості</h2>
+        </div>
+        <div class="about-text">
+            <p><span>HTML (HyperText Markup Language)</span> - це мова гіпертекстової розмітки сторінки. Вона використовується для того, щоб дати браузеру зрозуміти, як потрібно відображати завантажений сайт, тобто характеризує структуру/розмітку сайту. Однак, HTML - це НЕ мова програмування, а мова розмітки. Це означає, що в HTML є тільки теги, які допомагають браузеру правильно відобразити вміст сайту.</p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="bg-line1"></section>
+
+<section id="structure" class="section-padding">
+    <div class="container">
+        <div class="section-zag">
+            <h2>Базова структура HTML-документу</h2>
+        </div>
+        <div class="structure-text">
+            <p>Базова структура містить в собі найголовніші теги документу, які потрібні для коректного відображення сторінки. Це теги: <span>&lt;!DOCTYPE...&gt;</span> - визначає тип документу і версію HTML; <span>&lt;html&gt;...&lt;/html&gt;</span> - парний тег, який охоплює весь HTML-документ; <span>&lt;head&gt;...&lt;/head&gt;</span> - парний тег, який містить всю службову інформацію документу; <span>&lt;meta&gt;</span> - тег, що містить в собі мета-дані; <span>&lt;title&gt;...&lt;/title&gt;</span> - парний тег, що вказує назву документу; <span>&lt;body&gt;...&lt;/body&gt;</span> - парний тег, що представляє собою «тіло» документу і може містити інші html-теги, такі як <span>&lt;h1&gt;</span>, <span>&lt;div&gt;</span>, <span>&lt;p&gt;</span>.</p>
+            <br>
+            <p class="base-str-title" onclick="func1()">Подивитися на базову структуру HTML-документу</p>
+            <p id="base-str-code"></p>
+        </div>
+    </div>
+</section>
+
+<section id="bg-line2"></section>
+
+<section id="main-tags" class="section-padding">
+    <div class="container">
+        <div class="section-zag">
+            <h2>Основні теги</h2>
+        </div>
+        <div class="main-tags-wrap">
+            <div class="tags-wrap-head">
+                <p><span>&lt;h1&gt;</span>, <span>&lt;h2&gt;</span>, ... ,<span>&lt;h6&gt;</span> - парні теги заголовку. Їх всього 6 рівнів, заголовки різних рівнів мають різні розміри.</p>
+                <p class="code-exmpl" onclick="func2()">Приклад коду</p>
+                <p id="code"></p>
+                <br>
+                <p><span>&lt;p&gt;</span> - парний тег абзацу(параграфу), який використовується для структурування тексту.</p>
+                
+                <p class="code-exmpl" onclick="func3()">Приклад коду</p>
+                <p id="code1"></p>
+                <br>
+                <p><span>&lt;a href="URL">&lt;/a&gt;</span> - парний тег, який створює гіперпосилання на інші докумунти, частину цього документу або на інтренет-ресурси(повинен містити атрибут <span>href</span>).</p>
+                
+                <p class="code-exmpl" onclick="func4()">Приклад коду</p>
+                <p id="code2"></p>
+                <br>
+                <p><span>&lt;ol&gt;&lt;/ol&gt;</span> - парний тег, що створює нумерований список. Для задання елементів списку використовується парний тег <span>&lt;li&gt;&lt;/li&gt;</span>.</p>
+                
+                <p class="code-exmpl" onclick="func5()">Приклад коду</p>
+                <p id="code3"></p>
+                <br>
+                <p><span>&lt;ul&gt;&lt;/ul&gt;</span> - парний тег, що створює ненумерований список. Для задання елементів списку використовується парний тег <span>&lt;li&gt;&lt;/li&gt;</span>.</p>
+                
+                <p class="code-exmpl" onclick="func6()">Приклад коду</p>
+                <p id="code4"></p>
+                <br>
+                <p><span>&lt;img src=" " alt=" "&gt;</span> - тег, що дозволяє додати зображення, як і з інтернету так і внутрішній файл, на сторінку. Має обов’язкові атрибути <span>src="..."</span>(шлях до файлу) та <span>alt="..."</span>(альтернативний текст  у разі не відображення картинки)</p>
+                
+                <p class="code-exmpl" onclick="func7()">Приклад коду</p>
+                <p id="code5"></p>
+                <br>
+            </div>
+            <div class="tags-wrap-foot">
+                <h3>!Важливо!</h3>
+                <p>Вищенаведений список тегів HTML-документу не є повним. Тегів існує дуже велика кількість, які використовуються для вирішення конкретних та специфічних задач. Тому на їх вивчення та застосуванні на практиці знадобиться чимала кількість годин вашого часу.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="bg-line3"></section>
+
+<section id="links" class="section-padding">
+    <div class="container">
+        <div class="section-zag">
+            <h2>Посилання</h2>
+        </div>
+        <div class="links-wrap">
+            <div class="links-wrap-head">
+                <p>Для більш детального вивчення HTML ми зібрали для вас список корисних ресурсів, які допоможуть вам якісно та ефективно засвоїти нові знання. Деякі з ресурсів є довідниками, інтерактивними підручниками, а деякі з них - це відео-ролики, де професіональні програмісти на практиці показують застосування HTML-тегів.</p>
+            </div>
+            <div class="links-wrap-body">
+                <h3>Інтернет-ресурси:</h3>
+                <ul>
+                    <li><p><a href="http://proglang.su" target="_blank">ProgLang.su</a> - підручник/довідник(мова: російська)</p></li>
+                    <li><p><a href="https://htmlbase.ru" target="_blank">htmlbase.ru</a> - сучасний довідник по HTML(мова: російська)</p></li>
+                    <li><p><a href="https://webref.ru/course/html-tutorial" target="_blank">WebReference</a> - ресурс, що містить довідник та самовчитель(мова: російська)</p></li>
+                    <li><p><a href="https://html5book.ru" target="_blank">html5book</a> - підручник/довідник(мова: російська)</p></li>
+                    <li><p><a href="https://developer.mozilla.org/ru/" target="_blank">developer.mozilla.org</a> - посібник для початківців(мова: на вибір)</p></li>
+                    <li><p><a href="https://www.w3schools.com" target="_blank">W3Schools</a> - ресурс, що містить велику базу учбових матеріалів(мова:  англійська)</p></li>
+                    <li><p><a href="https://kniga.biz.ua/ua/book-html5-karmannyi-spravochnik-5-e-izdanie-0027475.html" target="_blank">HTML5. Карманный справочник.(Дж. Роббінс)</a> - книга/довідник</p></li>
+                </ul>
+            </div>
+            <br>
+            <div class="links-wrap-foot">
+                <h3>YouTube-канали:</h3>
+                <ul>
+                    <li><p><a href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMFtHHg0amAgocYP-kZypbY7" target="_blank">webDev - плейліст «HTML5 Basics»</a> (мова: російська)</p></li>
+                    <li><p><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj82rGHsuXzAhVP_7sIHfMGDGgQyCl6BAgDEAM&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUB1O30fR-EE&usg=AOvVaw2MFAukrnUDi5jK1rVmv6cn" target="_blank">Traversy Media - HTML Crash Course For Absolute Beginners</a> (мова: англійська)</p></li>
+                    <li><p><a href="https://www.youtube.com/playlist?list=PLY4rE9dstrJyeZlPWoKJr1xKVVnG4w-Hc" target="_blank">loftblog - плейліст «HTML для начинающих»</a> (мова: російська)</p></li>
+                    <li><p><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiC4dKVsuXzAhXegf0HHRL0Dj0QtwJ6BAgDEAM&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dqz0aGYrrlhU&usg=AOvVaw2_CvmXDkjUTwluWR8MrdrX" target="_blank">Programming with Mosh - HTML Tutorial for Beginners: HTML Crash Course [2021]</a> (мова: англійська)</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="links-buttons">
+            <div class="link-btn">
+                <a href="js-page.html">ᐊ JavaScript</a>
+            </div>
+            <div class="link-btn">
+                <a href="css-page.html">CSS ᐅ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="main-text">
+        <h2>Веб-дизайн</h2>
+    </div>
+    <div class="secondary-text">
+        <p>Copyright &copy; 2021, МІТ-21</p>
+        <p>All rights reserved</p>
+    </div>
+</footer>
+<script src="html.js"></script>
+
+</body>
+</html>
